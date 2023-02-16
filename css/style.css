@@ -1,0 +1,74 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: lightslategray;
+}
+header{
+     text-align: center;
+      padding: 20px;
+     background: lightgray;  
+     width: 700px; 
+     margin: 50px auto;
+     border-radius: 20px;
+}
+h1{
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: cadetblue;
+}
+main{
+     max-width: 700px;
+     margin: 40px auto;
+}
+section{
+     text-align: center;
+     background: tomato;
+     border-radius: 20px;
+}
+section h2{
+     font-size: 2.3rem;
+     color: rgb(6, 79, 82);
+     font-weight: bold;
+     margin-top: 20px;
+}
+div{
+     font-size: 2.3rem;
+     font-weight: 700;
+     margin-top: 60px;
+     color: rgb(6, 79, 82);
+     align-items: center;
+     justify-content: center;
+}
+div > input{
+     width: 420px;
+     padding: 20px;
+     border-radius: 20px;
+     outline: none;
+     border: none;
+}
+.btn{
+     width: 190px;
+     padding: 10px 30px;
+     font-size: 19px;
+     font-weight: 700;
+     margin-top: 40px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     color: rgb(6, 79, 82);
+     background: rgb(189, 179, 177);
+}
+.btn:active{
+     background: rgb(39, 52, 91);
+}
+.save{
+     width: 80px;
+     padding: 10px 30px;
+}
+.t{
+     margin-top: 40px;
+     margin-bottom: 50px;
+}
